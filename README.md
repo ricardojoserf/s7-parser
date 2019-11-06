@@ -22,4 +22,4 @@ Example:
 
 Result:
 
-[[images/image1.jpg]]
+![image](images/image1.jpg)
