@@ -21,4 +21,5 @@ Example:
 ```
 
 Result:
-[result](images/image1.jpg)
+
+[[images/image1.jpg]]
