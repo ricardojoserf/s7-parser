@@ -4,7 +4,7 @@
 #include <netinet/in.h>
 #include <netinet/if_ether.h>
 #include <unistd.h>
-#include <stdlib.h> 
+#include <stdlib.h>
 
 
 void s7_analysis(u_char *dumpfile, const struct pcap_pkthdr *header, const u_char *packet, const int total_headers_size);
