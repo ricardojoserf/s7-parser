@@ -9,19 +9,19 @@ S7 protocol (S7comm) parser using Libpcap. You can extract the S7 packets from a
 apt install libpcap-dev
 https://github.com/ricardojoserf/s7-parser
 cd s7-parser/
-gcc s7.c -o s7 -lpcap
+gcc s7.c -o s7parser -lpcap
 ```
 
 ## Usage
 
 ```
-./s7 $input_file $output_file
+./s7parser $input_file $output_file
 ```
 
 Testing with one of the test PCAP files in *s7_test/* :
 
 ```
-./s7 s7_test/password.pcapng result_test.pcap
+./s7parser s7_test/password.pcapng result_test.pcap
 ```
 
 The result is a PCAP with only the S7 extracted packets:
