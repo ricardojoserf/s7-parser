@@ -31,13 +31,13 @@ The result is a PCAP with only the S7 extracted packets:
 
 ## Motivations
 
- - I realised the Wireshark filter did not recognise some S7 packets correctly.
+ - I wanted to learn more about industrial protocols.
 
- - I was unable to do this using scapy (the Python library) but I do not remember why.
+ - Wireshark filter does not recognise some S7 packets correctly.
+
+ - I was unable to do this using scapy (the Python library).
  
- - I wanted to learn more about industrial protocols such as this (the code is probably worse than bad).
-
-
+ 
 ## References
 
 - https://www.devdungeon.com/content/using-libpcap-c
